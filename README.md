@@ -18,7 +18,7 @@ Kasia Tuszynska
 
 # Installation
 ### clone this repo
-$ git clone https://github.com/eclatealba/QuizMasters.git
+$ git clone https://github.com/profdbanjo/QuizMasters.git
 
 **go to the directory**
 $ cd QuizMasters
