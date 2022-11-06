@@ -311,3 +311,9 @@ Click [here](https://github.com/eclatealba/QuizMasters/blob/main/IST303_QuizMast
 Click [here](https://github.com/users/eclatealba/projects/1) to see project progress. 
 
 # Project Part C
+
+Please see powerpoint attached. 
+
+[IST303_QuizMasters_M1.pptx](https://github.com/profdbanjo/QuizMasters/files/9945085/IST303_QuizMasters_M1.pptx)
+
+
