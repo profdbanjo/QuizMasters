@@ -316,4 +316,20 @@ Please see powerpoint attached.
 
 [IST303_QuizMasters_M1.pptx](https://github.com/profdbanjo/QuizMasters/files/9945085/IST303_QuizMasters_M1.pptx)
 
+# Project Part D
+
+Please see powerpoint attached
+
+
+You must present working code and explain what it does and how it fulfills the user stories.
+Login 
+Registration
+
+
+Show and explain how the code was tested. Include details on the levels of test coverage.
+
+
+Three most important things we learned about software development:
+
+
 
