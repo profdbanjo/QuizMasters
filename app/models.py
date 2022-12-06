@@ -21,7 +21,7 @@ class User(db.Model):
 
 class Questions(db.Model):
     q_id = db.Column(db.Integer, primary_key=True)
-    ques = db.Column(db.String(350), unique=False)
+    ques = db.Column(db.String(350), unique=True)
     a = db.Column(db.String(100))
     b = db.Column(db.String(100))
     c = db.Column(db.String(100))
