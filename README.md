@@ -56,7 +56,7 @@ $ export FLASK_APP=routes.py (For Mac)
 
 $ flask run
 
-###  Run Pytes
+###  5. Run Pytes
 
 
 # Project Goal
