@@ -373,5 +373,16 @@ The coverage percentage is 52 percent for our tests. We deem that as low. Covera
 
 Three most important things we learned about software development:
 
+Application of Agile Methodology: 
+Used sprint backlogs and burndown charts to increase the visibility of the project 
+Allowed us to predict performance and plan accordingly.
+Code interpretation:
+Working with errors, and warnings helped us step through the logic of the code 
+Understand how the different environment pieces work together 
+Collaboration: 
+We all had expertise in different disciplines. We looked at the project from different angles
+It helped us uncover hidden assumptions that helped with our project, 
+for instance each member worked on a code and when we met on our zoom meetings we discussed how our parts will fit in the project.
+
 
 
