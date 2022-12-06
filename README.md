@@ -32,7 +32,7 @@ git clone https://github.com/profdbanjo/QuizMasters.git
 python3 -m venv venv
 
 
-###  2. Activate the environment
+##  2. Activate the environment
 
 ### Windows
 
@@ -43,20 +43,20 @@ venv\Scripts\activate
 . venv/bin/activate or source venv/bin/activate
 
 
-###  3. Install the requirements
+##  3. Install the requirements
 
 Applies for windows/macOS/Linux
 
 cd QuizMasters
 pip install -r requirements.txt
 --
-### 4. export flask app and run
+## 4. export flask app and run
 $ set FLASK_APP=routes.py (For Windows)
 $ export FLASK_APP=routes.py (For Mac)
 
 $ flask run
 
-###  5. Run Pytes
+##  5. Run Pytes
 
 
 # Project Goal
