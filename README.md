@@ -46,13 +46,12 @@ venv\Scripts\activate
 ##  3. Install the requirements
 
 Applies for windows/macOS/Linux
-
 cd QuizMasters
 pip install -r requirements.txt
---
+
 ## 4. export flask app and run
-$ set FLASK_APP=routes.py (For Windows)
-$ export FLASK_APP=routes.py (For Mac)
+$ set FLASK_APP=app.py (For Windows)
+$ export FLASK_APP=app.py (For Mac)
 
 $ flask run
 
