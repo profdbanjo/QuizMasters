@@ -22,17 +22,17 @@ Kasia Tuszynska
 ### Windows
 
 git clone https://github.com/profdbanjo/QuizMasters.git
-cd QuizMasters
+#### cd QuizMasters
 python -m venv venv
 
 ### macOS/Linux
 
 git clone https://github.com/profdbanjo/QuizMasters.git
-cd QuizMasters
+### cd QuizMasters
 python3 -m venv venv
 
 
-##  2. Activate the environment
+###  2. Activate the environment
 
 ### Windows
 
@@ -47,7 +47,7 @@ venv\Scripts\activate
 
 Applies for windows/macOS/Linux
 
-cd main
+cd QuizMasters
 pip install -r requirements.txt
 --
 # 4. export flask app and run
@@ -56,7 +56,7 @@ $ export FLASK_APP=routes.py (For Mac)
 
 $ flask run
 
-#  Run Pytes
+##  Run Pytes
 
 
 # Project Goal
