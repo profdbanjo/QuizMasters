@@ -58,6 +58,16 @@ $ flask run
 
 ##  5. Run Pytest
 
+From CD QuizmMasters
+
+pip install pytest
+
+pytest tests.py
+
+If you want coverage: 
+
+coverage report
+
 
 # Project Goal
 
