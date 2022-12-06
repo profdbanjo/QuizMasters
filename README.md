@@ -36,45 +36,37 @@ $ export FLASK_APP=app.py (For Mac)
 $ flask run
 ----
 # Installation
-### 1. Clone/Fork the git repo and create an environment
+## 1. Clone/Fork the git repo and create an environment
 
-#### Windows
+### Windows
 
-git clone https://github.com/profdbanjo/QuizMasters.git
-
-#### go to the directory**
+git clone https://github.com/Dev-Elie/User-Authentication-in-Flask.git
 cd QuizMasters
-
-#### use virtual env
 python -m venv venv
 
-#### macOS/Linux
+### macOS/Linux
 
-git clone https://github.com/profdbanjo/QuizMasters.git
-
-#### go to the directory**
-cd QuizMasters
-
-#### use virtual env
+git clone https://github.com/Dev-Elie/User-Authentication-in-Flask.git
+cd User-Authentication-in-Flask
 python3 -m venv venv
 
 
-###  2. Activate the environment
+##  2. Activate the environment
 
-#### Windows
+### Windows
 
 venv\Scripts\activate
 
-#### macOS/Linux
+### macOS/Linux
 
 . venv/bin/activate or source venv/bin/activate
 
-###  3. Install the requirements
+
+##  3. Install the requirements
 
 Applies for windows/macOS/Linux
 
 cd main
-
 pip install -r requirements.txt
 --
 
