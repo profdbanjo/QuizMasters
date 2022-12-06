@@ -56,7 +56,17 @@ $ export FLASK_APP=routes.py (For Mac)
 
 $ flask run
 
-##  5. Run Pytes
+##  5. Run Pytest
+
+From CD QuizmMasters
+
+pip install pytest
+
+pytest tests.py
+
+If you want coverage: 
+
+coverage report
 
 
 # Project Goal
@@ -343,6 +353,8 @@ Please see powerpoint attached.
 
 Please see powerpoint attached
 
+https://docs.google.com/presentation/d/1lJ95T4EmM6BZx7x_cFSQIgDcUpd0O90_Svj6hMv-6ws/edit?usp=sharing
+
 
 You must present working code and explain what it does and how it fulfills the user stories.
 Login 
@@ -351,8 +363,13 @@ Registration
 
 Show and explain how the code was tested. Include details on the levels of test coverage.
 
+We can test the code installing all the packages in python. You will need to pytest the tests.py file. 
+
 The codes were tested at previous levels in order to test the functionality of this entire application. The main principal codes we tested for the application were the registration forms, login forms, and landing page forms. In the registration forms, we tested the codes to assess better how the user experience feels during the process. We implemented tests that let us test how a username was created and whether the username meets the unique characteristics. We created unit tests and functional tests to test our registration process better. We parameterized tests to pass and fail based on specific criteria. In addition, we wrote tests for login forms the same way. The login forms tests can include ensuring a student email is used for a username, not just special characters. The motive for these tests is to have the authenticity of the application and to detect bugs and inefficiencies in our codes and applications. It is essential testing is done at all stages to ensure the validity and marketability of our application. We will also require ID numbers for the future of the application, so it is essential that only one ID is associated with one student. The most important part of the testing is that we create an easy and accessible user-friendly experience upon registering, signing up, and opening the quiz. Lastly, the testing of the landing page was to ensure the students could not retake the tests, and we wanted to ensure that an error warning occurred if a student tried to retake the exam. The product is incomplete in that we must develop our application and code and continue to test bugs and inefficiencies. We leave a lot to desire out there, and the testing portion can provide many capabilities. 
 
+<img width="1440" alt="Screenshot 2022-12-05 at 6 52 38 PM" src="https://user-images.githubusercontent.com/112905335/205816608-6daa34da-b058-4334-bb9b-52b1ed8c219d.png">
+
+The coverage percentage is 52 percent for our tests. We deem that as low. Coverage testing can help describe how to identify bugs and complications in the application. It is also important to excercise better use of code and testing because of the missing tests. There is potential to grow in this area and to get rid of these warnings. There are more levels of test that need to be completed in the further part of project in order to fully have a functional application for everyday use. 
 
 Three most important things we learned about software development:
 
