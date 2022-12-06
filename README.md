@@ -50,7 +50,7 @@ Applies for windows/macOS/Linux
 cd QuizMasters
 pip install -r requirements.txt
 --
-# 4. export flask app and run
+## 4. export flask app and run
 $ set FLASK_APP=routes.py (For Windows)
 $ export FLASK_APP=routes.py (For Mac)
 
