@@ -36,35 +36,36 @@ $ export FLASK_APP=app.py (For Mac)
 $ flask run
 ----
 # Installation
-### Clone/Fork the git repo and create an environment
+### 1. Clone/Fork the git repo and create an environment
 
-Windows
-
-git clone https://github.com/profdbanjo/QuizMasters.git
-
-**go to the directory**
-cd cd QuizMasters
-
-### use virtual env
-python -m venv venv
-
-### macOS/Linux
+#### Windows
 
 git clone https://github.com/profdbanjo/QuizMasters.git
 
-**go to the directory**
+#### go to the directory**
 cd QuizMasters
 
-### use virtual env
+#### use virtual env
+python -m venv venv
+
+#### macOS/Linux
+
+git clone https://github.com/profdbanjo/QuizMasters.git
+
+#### go to the directory**
+cd QuizMasters
+
+#### use virtual env
 python3 -m venv venv
 
 
 ###  2. Activate the environment
-Windows
+
+#### Windows
 
 venv\Scripts\activate
 
-macOS/Linux
+#### macOS/Linux
 
 . venv/bin/activate or source venv/bin/activate
 
