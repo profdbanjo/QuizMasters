@@ -17,37 +17,18 @@ Olalekan David-Banjo
 Kasia Tuszynska
 
 # Installation
-### clone this repo
-$ git clone https://github.com/profdbanjo/QuizMasters.git
-
-**go to the directory**
-$ cd QuizMasters
-
-### use virtual env
-$ virtualenv ENV && source ENV/bin/activate
-
-### generate static project
-$ pip install -r requirements.txt
-
-### export flask app and run
-$ set FLASK_APP=app.py (For Windows)
-$ export FLASK_APP=app.py (For Mac)
-
-$ flask run
-----
-# Installation
 ## 1. Clone/Fork the git repo and create an environment
 
 ### Windows
 
-git clone https://github.com/Dev-Elie/User-Authentication-in-Flask.git
+git clone https://github.com/profdbanjo/QuizMasters.git
 cd QuizMasters
 python -m venv venv
 
 ### macOS/Linux
 
-git clone https://github.com/Dev-Elie/User-Authentication-in-Flask.git
-cd User-Authentication-in-Flask
+git clone https://github.com/profdbanjo/QuizMasters.git
+cd QuizMasters
 python3 -m venv venv
 
 
@@ -69,6 +50,14 @@ Applies for windows/macOS/Linux
 cd main
 pip install -r requirements.txt
 --
+# 4. export flask app and run
+$ set FLASK_APP=routes.py (For Windows)
+$ export FLASK_APP=routes.py (For Mac)
+
+$ flask run
+
+#  Run Pytes
+
 
 # Project Goal
 
