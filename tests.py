@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 import pytest
-
+import email-validator
 
 def pytest_generate_tests(metafunc):
     idlist = []
@@ -254,7 +254,7 @@ def test_LoginForm():
 
 
 def test_Registrationform():
-    if username is "@email.com":
+    if username == "@email.com":
         raise correct('username correct')
 
 
