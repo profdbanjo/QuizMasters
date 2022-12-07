@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 import pytest
-import email-validator
+import email_validator
 
 def pytest_generate_tests(metafunc):
     idlist = []
