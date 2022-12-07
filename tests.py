@@ -266,3 +266,44 @@ def test_Registrationform():
 def test_Registrationform():
     if user: var = 'user tries to take test again'
     print('cannot take test again, please contact instructor')
+
+    
+@pytest.fixture
+def model():
+    return Model()
+
+
+def primary_key():
+    pass
+
+
+@pytest.fixture
+def db():
+    return ...
+
+
+@pytest.fixture
+def db():
+    db = db()
+    db.make_db()
+    return cell
+
+
+class Questions:
+    q_id = primary_key
+    ques = 'db.String(350), unique=True'
+    a = 'db.String(100'
+    b = 'db.String(100'
+    c = 'db.String(100'
+    d = 'db.String(100'
+    ans = 'db.String(100'
+
+
+def test_Questions():
+    if user: var = 'selects answer a'
+    assert answer
+
+
+def test_questions():
+    if user: var = 'skips questions'
+    print('We are sorry you must choose an answer')
